@@ -1,0 +1,80 @@
+body {
+    background-color: antiquewhite;
+    width: auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    border-style: double;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 40px;
+    margin: 40px;
+    border-style: double;
+}
+
+
+.columngoal {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 10px;
+    margin: 0px;
+    border-style: double;
+}
+
+
+.container{
+    width: 100%;
+}
+
+.goal {
+    width: 80%;
+    text-align: justify;
+    background-color: lightsalmon;
+    padding: 20px;
+}
+
+.goal::after {
+    padding: 12px;
+    
+    border-color: black;
+    border-style: dotted;
+    display: inline-block;
+   
+}
+
+.goaltable {
+    border: 1px solid;
+    padding: 20px;
+}
+
+tr {
+  border: 1px solid;
+   
+}
+
+td {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.notify .delete .view {
+    text-align: center;
+}
+
